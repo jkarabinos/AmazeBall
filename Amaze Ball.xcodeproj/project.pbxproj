@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A3D9E01A6AC8B500349619 /* TheBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3D9DF1A6AC8B500349619 /* TheBall.m */; };
+		A4A3D9E21A6ACF9600349619 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3D9E11A6ACF9600349619 /* QuartzCore.framework */; };
+		A4CD6EC31A6AC24000E194C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CD6EC21A6AC24000E194C2 /* Foundation.framework */; };
+		A4CD6EC51A6AC24000E194C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CD6EC41A6AC24000E194C2 /* CoreGraphics.framework */; };
+		A4CD6EC71A6AC24000E194C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CD6EC61A6AC24000E194C2 /* UIKit.framework */; };
+		A4CD6ECD1A6AC24000E194C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4CD6ECB1A6AC24000E194C2 /* InfoPlist.strings */; };
+		A4CD6ECF1A6AC24000E194C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CD6ECE1A6AC24000E194C2 /* main.m */; };
+		A4CD6ED31A6AC24000E194C2 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CD6ED21A6AC24000E194C2 /* BRAppDelegate.m */; };
+		A4CD6ED61A6AC24000E194C2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CD6ED41A6AC24000E194C2 /* Main_iPhone.storyboard */; };
+		A4CD6ED91A6AC24000E194C2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CD6ED71A6AC24000E194C2 /* Main_iPad.storyboard */; };
+		A4CD6EDC1A6AC24000E194C2 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CD6EDB1A6AC24000E194C2 /* BRViewController.m */; };
+		A4CD6EDE1A6AC24000E194C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CD6EDD1A6AC24000E194C2 /* Images.xcassets */; };
+		A4CD6EE51A6AC24000E194C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CD6EE41A6AC24000E194C2 /* XCTest.framework */; };
+		A4CD6EE61A6AC24000E194C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CD6EC21A6AC24000E194C2 /* Foundation.framework */; };
+		A4CD6EE71A6AC24000E194C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CD6EC61A6AC24000E194C2 /* UIKit.framework */; };
+		A4CD6EEF1A6AC24000E194C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4CD6EED1A6AC24000E194C2 /* InfoPlist.strings */; };
+		A4CD6EF11A6AC24000E194C2 /* Amaze_BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CD6EF01A6AC24000E194C2 /* Amaze_BallTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4CD6EE81A6AC24000E194C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CD6EB71A6AC24000E194C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CD6EBE1A6AC24000E194C2;
+			remoteInfo = "Amaze Ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A3D9DE1A6AC8B500349619 /* TheBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheBall.h; sourceTree = "<group>"; };
+		A4A3D9DF1A6AC8B500349619 /* TheBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheBall.m; sourceTree = "<group>"; };
+		A4A3D9E11A6ACF9600349619 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4CD6EBF1A6AC24000E194C2 /* Amaze Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaze Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CD6EC21A6AC24000E194C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4CD6EC41A6AC24000E194C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4CD6EC61A6AC24000E194C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4CD6ECA1A6AC24000E194C2 /* Amaze Ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amaze Ball-Info.plist"; sourceTree = "<group>"; };
+		A4CD6ECC1A6AC24000E194C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4CD6ECE1A6AC24000E194C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4CD6ED01A6AC24000E194C2 /* Amaze Ball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Amaze Ball-Prefix.pch"; sourceTree = "<group>"; };
+		A4CD6ED11A6AC24000E194C2 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		A4CD6ED21A6AC24000E194C2 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		A4CD6ED51A6AC24000E194C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A4CD6ED81A6AC24000E194C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A4CD6EDA1A6AC24000E194C2 /* BRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
+		A4CD6EDB1A6AC24000E194C2 /* BRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
+		A4CD6EDD1A6AC24000E194C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4CD6EE31A6AC24000E194C2 /* Amaze BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaze BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CD6EE41A6AC24000E194C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4CD6EEC1A6AC24000E194C2 /* Amaze BallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amaze BallTests-Info.plist"; sourceTree = "<group>"; };
+		A4CD6EEE1A6AC24000E194C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4CD6EF01A6AC24000E194C2 /* Amaze_BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amaze_BallTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4CD6EBC1A6AC24000E194C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3D9E21A6ACF9600349619 /* QuartzCore.framework in Frameworks */,
+				A4CD6EC51A6AC24000E194C2 /* CoreGraphics.framework in Frameworks */,
+				A4CD6EC71A6AC24000E194C2 /* UIKit.framework in Frameworks */,
+				A4CD6EC31A6AC24000E194C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CD6EE01A6AC24000E194C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CD6EE51A6AC24000E194C2 /* XCTest.framework in Frameworks */,
+				A4CD6EE71A6AC24000E194C2 /* UIKit.framework in Frameworks */,
+				A4CD6EE61A6AC24000E194C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4CD6EB61A6AC24000E194C2 = {
+			isa = PBXGroup;
+			children = (
+				A4CD6EC81A6AC24000E194C2 /* Amaze Ball */,
+				A4CD6EEA1A6AC24000E194C2 /* Amaze BallTests */,
+				A4CD6EC11A6AC24000E194C2 /* Frameworks */,
+				A4CD6EC01A6AC24000E194C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CD6EC01A6AC24000E194C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD6EBF1A6AC24000E194C2 /* Amaze Ball.app */,
+				A4CD6EE31A6AC24000E194C2 /* Amaze BallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CD6EC11A6AC24000E194C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3D9E11A6ACF9600349619 /* QuartzCore.framework */,
+				A4CD6EC21A6AC24000E194C2 /* Foundation.framework */,
+				A4CD6EC41A6AC24000E194C2 /* CoreGraphics.framework */,
+				A4CD6EC61A6AC24000E194C2 /* UIKit.framework */,
+				A4CD6EE41A6AC24000E194C2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4CD6EC81A6AC24000E194C2 /* Amaze Ball */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD6ED11A6AC24000E194C2 /* BRAppDelegate.h */,
+				A4CD6ED21A6AC24000E194C2 /* BRAppDelegate.m */,
+				A4CD6ED41A6AC24000E194C2 /* Main_iPhone.storyboard */,
+				A4CD6ED71A6AC24000E194C2 /* Main_iPad.storyboard */,
+				A4CD6EDA1A6AC24000E194C2 /* BRViewController.h */,
+				A4CD6EDB1A6AC24000E194C2 /* BRViewController.m */,
+				A4A3D9DE1A6AC8B500349619 /* TheBall.h */,
+				A4A3D9DF1A6AC8B500349619 /* TheBall.m */,
+				A4CD6EDD1A6AC24000E194C2 /* Images.xcassets */,
+				A4CD6EC91A6AC24000E194C2 /* Supporting Files */,
+			);
+			path = "Amaze Ball";
+			sourceTree = "<group>";
+		};
+		A4CD6EC91A6AC24000E194C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD6ECA1A6AC24000E194C2 /* Amaze Ball-Info.plist */,
+				A4CD6ECB1A6AC24000E194C2 /* InfoPlist.strings */,
+				A4CD6ECE1A6AC24000E194C2 /* main.m */,
+				A4CD6ED01A6AC24000E194C2 /* Amaze Ball-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4CD6EEA1A6AC24000E194C2 /* Amaze BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD6EF01A6AC24000E194C2 /* Amaze_BallTests.m */,
+				A4CD6EEB1A6AC24000E194C2 /* Supporting Files */,
+			);
+			path = "Amaze BallTests";
+			sourceTree = "<group>";
+		};
+		A4CD6EEB1A6AC24000E194C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD6EEC1A6AC24000E194C2 /* Amaze BallTests-Info.plist */,
+				A4CD6EED1A6AC24000E194C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CD6EBE1A6AC24000E194C2 /* Amaze Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CD6EF41A6AC24000E194C2 /* Build configuration list for PBXNativeTarget "Amaze Ball" */;
+			buildPhases = (
+				A4CD6EBB1A6AC24000E194C2 /* Sources */,
+				A4CD6EBC1A6AC24000E194C2 /* Frameworks */,
+				A4CD6EBD1A6AC24000E194C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amaze Ball";
+			productName = "Amaze Ball";
+			productReference = A4CD6EBF1A6AC24000E194C2 /* Amaze Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4CD6EE21A6AC24000E194C2 /* Amaze BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CD6EF71A6AC24000E194C2 /* Build configuration list for PBXNativeTarget "Amaze BallTests" */;
+			buildPhases = (
+				A4CD6EDF1A6AC24000E194C2 /* Sources */,
+				A4CD6EE01A6AC24000E194C2 /* Frameworks */,
+				A4CD6EE11A6AC24000E194C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CD6EE91A6AC24000E194C2 /* PBXTargetDependency */,
+			);
+			name = "Amaze BallTests";
+			productName = "Amaze BallTests";
+			productReference = A4CD6EE31A6AC24000E194C2 /* Amaze BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CD6EB71A6AC24000E194C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Karabinos";
+				TargetAttributes = {
+					A4CD6EE21A6AC24000E194C2 = {
+						TestTargetID = A4CD6EBE1A6AC24000E194C2;
+					};
+				};
+			};
+			buildConfigurationList = A4CD6EBA1A6AC24000E194C2 /* Build configuration list for PBXProject "Amaze Ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4CD6EB61A6AC24000E194C2;
+			productRefGroup = A4CD6EC01A6AC24000E194C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CD6EBE1A6AC24000E194C2 /* Amaze Ball */,
+				A4CD6EE21A6AC24000E194C2 /* Amaze BallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4CD6EBD1A6AC24000E194C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CD6ED91A6AC24000E194C2 /* Main_iPad.storyboard in Resources */,
+				A4CD6EDE1A6AC24000E194C2 /* Images.xcassets in Resources */,
+				A4CD6ED61A6AC24000E194C2 /* Main_iPhone.storyboard in Resources */,
+				A4CD6ECD1A6AC24000E194C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CD6EE11A6AC24000E194C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CD6EEF1A6AC24000E194C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4CD6EBB1A6AC24000E194C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3D9E01A6AC8B500349619 /* TheBall.m in Sources */,
+				A4CD6EDC1A6AC24000E194C2 /* BRViewController.m in Sources */,
+				A4CD6ED31A6AC24000E194C2 /* BRAppDelegate.m in Sources */,
+				A4CD6ECF1A6AC24000E194C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CD6EDF1A6AC24000E194C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CD6EF11A6AC24000E194C2 /* Amaze_BallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4CD6EE91A6AC24000E194C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CD6EBE1A6AC24000E194C2 /* Amaze Ball */;
+			targetProxy = A4CD6EE81A6AC24000E194C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4CD6ECB1A6AC24000E194C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CD6ECC1A6AC24000E194C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4CD6ED41A6AC24000E194C2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CD6ED51A6AC24000E194C2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A4CD6ED71A6AC24000E194C2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CD6ED81A6AC24000E194C2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A4CD6EED1A6AC24000E194C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CD6EEE1A6AC24000E194C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4CD6EF21A6AC24000E194C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4CD6EF31A6AC24000E194C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4CD6EF51A6AC24000E194C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amaze Ball/Amaze Ball-Prefix.pch";
+				INFOPLIST_FILE = "Amaze Ball/Amaze Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4CD6EF61A6AC24000E194C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amaze Ball/Amaze Ball-Prefix.pch";
+				INFOPLIST_FILE = "Amaze Ball/Amaze Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4CD6EF81A6AC24000E194C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Amaze Ball.app/Amaze Ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amaze Ball/Amaze Ball-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Amaze BallTests/Amaze BallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4CD6EF91A6AC24000E194C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Amaze Ball.app/Amaze Ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amaze Ball/Amaze Ball-Prefix.pch";
+				INFOPLIST_FILE = "Amaze BallTests/Amaze BallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4CD6EBA1A6AC24000E194C2 /* Build configuration list for PBXProject "Amaze Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CD6EF21A6AC24000E194C2 /* Debug */,
+				A4CD6EF31A6AC24000E194C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CD6EF41A6AC24000E194C2 /* Build configuration list for PBXNativeTarget "Amaze Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CD6EF51A6AC24000E194C2 /* Debug */,
+				A4CD6EF61A6AC24000E194C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CD6EF71A6AC24000E194C2 /* Build configuration list for PBXNativeTarget "Amaze BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CD6EF81A6AC24000E194C2 /* Debug */,
+				A4CD6EF91A6AC24000E194C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4CD6EB71A6AC24000E194C2 /* Project object */;
+}
