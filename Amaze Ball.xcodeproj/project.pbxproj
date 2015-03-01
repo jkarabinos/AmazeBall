@@ -12,7 +12,6 @@
 		A40471F71A9926CB00D3E91E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40471F61A9926CB00D3E91E /* AVFoundation.framework */; };
 		A40471F91A99275D00D3E91E /* AMAZE BALL.wav in Resources */ = {isa = PBXBuildFile; fileRef = A40471F81A99275D00D3E91E /* AMAZE BALL.wav */; };
 		A40471FB1A9A588600D3E91E /* l1.png in Resources */ = {isa = PBXBuildFile; fileRef = A40471FA1A9A588600D3E91E /* l1.png */; };
-		A40471FD1A9A5A6200D3E91E /* l1r.png in Resources */ = {isa = PBXBuildFile; fileRef = A40471FC1A9A5A6200D3E91E /* l1r.png */; };
 		A40471FF1A9A5BEF00D3E91E /* l2.png in Resources */ = {isa = PBXBuildFile; fileRef = A40471FE1A9A5BEF00D3E91E /* l2.png */; };
 		A40472011A9A5BF500D3E91E /* l2r.png in Resources */ = {isa = PBXBuildFile; fileRef = A40472001A9A5BF500D3E91E /* l2r.png */; };
 		A40472031A9A5D6E00D3E91E /* l2d.png in Resources */ = {isa = PBXBuildFile; fileRef = A40472021A9A5D6E00D3E91E /* l2d.png */; };
@@ -178,7 +177,6 @@
 		A40471F61A9926CB00D3E91E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A40471F81A99275D00D3E91E /* AMAZE BALL.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "AMAZE BALL.wav"; path = "../../../../Downloads/AMAZE BALL.wav"; sourceTree = "<group>"; };
 		A40471FA1A9A588600D3E91E /* l1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l1.png; path = ../../../../Inksacpe/l1.png; sourceTree = "<group>"; };
-		A40471FC1A9A5A6200D3E91E /* l1r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l1r.png; path = ../../../../Inksacpe/l1r.png; sourceTree = "<group>"; };
 		A40471FE1A9A5BEF00D3E91E /* l2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l2.png; path = ../../../../Inksacpe/l2.png; sourceTree = "<group>"; };
 		A40472001A9A5BF500D3E91E /* l2r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l2r.png; path = ../../../../Inksacpe/l2r.png; sourceTree = "<group>"; };
 		A40472021A9A5D6E00D3E91E /* l2d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l2d.png; path = ../../../../Inksacpe/l2d.png; sourceTree = "<group>"; };
@@ -389,7 +387,6 @@
 				A40472021A9A5D6E00D3E91E /* l2d.png */,
 				A40472001A9A5BF500D3E91E /* l2r.png */,
 				A40471FE1A9A5BEF00D3E91E /* l2.png */,
-				A40471FC1A9A5A6200D3E91E /* l1r.png */,
 				A40471FA1A9A588600D3E91E /* l1.png */,
 				A40471F41A99249F00D3E91E /* h7.png */,
 				A4079C661A99123A006E019D /* h4.png */,
@@ -675,7 +672,6 @@
 				A49DE9FD1A86920E0080DA92 /* gateleft.png in Resources */,
 				A4BE61951A7D64910007353A /* one-way-hor.png in Resources */,
 				A4BE61A31A7DA2470007353A /* one-way-bottomtotop.png in Resources */,
-				A40471FD1A9A5A6200D3E91E /* l1r.png in Resources */,
 				A4BE61B51A7E89950007353A /* disappearingwallhor.png in Resources */,
 				A41994351A96D037009459ED /* menu4.png in Resources */,
 				A4BE61481A7D38FB0007353A /* spikewall.png in Resources */,
