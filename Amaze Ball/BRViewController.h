@@ -16,9 +16,17 @@
 - (IBAction)swipeUp:(id)sender;
 - (IBAction)backButton:(id)sender;
 - (IBAction)restartLevel:(id)sender;
+- (IBAction)nextLevel:(id)sender;
+- (IBAction)levelSelect:(id)sender;
 
 @property(strong, nonatomic) NSArray* level1;
 @property(strong, nonatomic) NSArray* level3;
 
+@property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
+
+-(void)nextLevel;
+
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @end

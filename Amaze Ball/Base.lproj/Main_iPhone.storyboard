@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="BRViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="level" id="vXZ-lx-hvc" customClass="BRViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -16,26 +17,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-bn-KZX">
-                                <rect key="frame" x="59" y="448" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h8.png" translatesAutoresizingMaskIntoConstraints="NO" id="LyE-7c-v8N">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-bn-KZX">
+                                <rect key="frame" x="16" y="490" width="46" height="30"/>
                                 <state key="normal" title="back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="backButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3LO-rR-Kqw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckb-XU-Jn3">
-                                <rect key="frame" x="202" y="448" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="restart">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckb-XU-Jn3">
+                                <rect key="frame" x="45" y="438" width="50" height="50"/>
+                                <state key="normal" title="restart" image="restart5.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="restartLevel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="t9u-UJ-3sJ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ampic7.png" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-mW-S9O">
+                                <rect key="frame" x="30" y="28" width="260" height="30"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1D-Mu-NWw">
+                                <rect key="frame" x="225" y="438" width="50" height="50"/>
+                                <state key="normal" title="levels" image="menu5.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelSelect:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9tb-o7-3Zs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaw-0Y-gX1">
+                                <rect key="frame" x="135" y="438" width="50" height="50"/>
+                                <state key="normal" title="next" image="next5.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextLevel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kuy-c9-5zF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="levelback.png" translatesAutoresizingMaskIntoConstraints="NO" id="hO7-AU-o1X">
+                                <rect key="frame" x="85" y="70" width="150" height="30"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7E-8R-CYs">
+                                <rect key="frame" x="87" y="71" width="146" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -46,6 +82,11 @@
                             <outletCollection property="gestureRecognizers" destination="FBK-GE-hXp" appends="YES" id="fT8-hS-sDz"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="LyE-7c-v8N" id="Yhw-sK-05Z"/>
+                        <outlet property="levelLabel" destination="N7E-8R-CYs" id="BLp-BZ-kNd"/>
+                        <outlet property="nextButton" destination="aaw-0Y-gX1" id="zCy-r9-WHp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="eL3-ta-Dbq">
@@ -69,8 +110,77 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="115" y="108"/>
+        </scene>
+        <!--Level Select View Controller-->
+        <scene sceneID="GXW-AU-QOt">
+            <objects>
+                <viewController storyboardIdentifier="levelSelect" id="K1r-qL-jVl" customClass="BRLevelSelectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zOJ-Fx-Myg"/>
+                        <viewControllerLayoutGuide type="bottom" id="oe3-Ft-LUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kXI-gj-ITu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h8.png" translatesAutoresizingMaskIntoConstraints="NO" id="XL3-VO-qtA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FXm-Xa-FzD">
+                                <rect key="frame" x="84" y="87" width="152" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lp1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Af1-ML-fqs">
+                                        <rect key="frame" x="0.0" y="0.0" width="152" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ac0-dg-x2p">
+                                <rect key="frame" x="254" y="87" width="50" height="50"/>
+                                <state key="normal" title="Button" image="right.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveRight:" destination="K1r-qL-jVl" eventType="touchUpInside" id="0cj-Rm-NSX"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ampic7.png" translatesAutoresizingMaskIntoConstraints="NO" id="aLA-6L-3hl">
+                                <rect key="frame" x="30" y="28" width="260" height="30"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZE-Xn-AgX">
+                                <rect key="frame" x="16" y="87" width="50" height="50"/>
+                                <state key="normal" title="Button" image="left.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveLeft:" destination="K1r-qL-jVl" eventType="touchUpInside" id="cob-GB-Svt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" id="tUo-8E-G6m"/>
+                    <connections>
+                        <outlet property="levelPackImageView" destination="Af1-ML-fqs" id="tV7-9c-cGI"/>
+                        <outlet property="levelPackView" destination="FXm-Xa-FzD" id="btO-Aj-L2c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufH-6p-ccU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688" y="140"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ampic7.png" width="534" height="56"/>
+        <image name="h8.png" width="641" height="1137"/>
+        <image name="left.png" width="403" height="403"/>
+        <image name="levelback.png" width="426" height="78"/>
+        <image name="lp1.png" width="963" height="317"/>
+        <image name="menu5.png" width="403" height="403"/>
+        <image name="next5.png" width="403" height="403"/>
+        <image name="restart5.png" width="403" height="403"/>
+        <image name="right.png" width="403" height="403"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
